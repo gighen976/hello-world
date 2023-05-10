@@ -1,4 +1,4 @@
-package it.thinkinginjava.esercizi;
+package it.books.thinkinginjava.esercizi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

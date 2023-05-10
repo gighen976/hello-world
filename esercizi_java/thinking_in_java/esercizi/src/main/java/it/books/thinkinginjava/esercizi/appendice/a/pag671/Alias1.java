@@ -1,4 +1,4 @@
-package it.thinkinginjava.esercizi.appendice.a.pag671;
+package it.books.thinkinginjava.esercizi.appendice.a.pag671;
 
 public class Alias1 {
     int i;
