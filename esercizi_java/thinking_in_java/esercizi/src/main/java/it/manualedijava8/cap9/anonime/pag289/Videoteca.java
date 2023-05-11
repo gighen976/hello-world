@@ -17,10 +17,10 @@ public class Videoteca {
     public List<Film> getFilmDiFantascienza() {
 
         List<Film> filmDiFantascienza=new ArrayList<>();
-        for (int i = 0; i < films.length; i++) {
-            if ("Fantascienza".equals(films[i].getGenere())) {
-                filmDiFantascienza.add(films[i]);
-             }
+        for (Film film : films) {
+            if ("Fantascienza".equals(film.getGenere())) {
+                filmDiFantascienza.add(film);
+            }
         }
         return filmDiFantascienza;
     }
@@ -28,9 +28,9 @@ public class Videoteca {
 
     public List<Film> getBeiFilm() {
         List<Film> beiFilms=new ArrayList<>();
-        for (int i = 0; i < films.length; i++) {
-            if (films[i].getMediaRecensione()>3) {
-                beiFilms.add(films[i]);
+        for (Film film : films) {
+            if (film.getMediaRecensione()>3) {
+                beiFilms.add(film);
             }
         }
         return beiFilms;
